@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'proyecto_angular16';
+  private _title: string = 'proyecto_angular16';
+
+  public get title(): string {
+    return this._title;
+  }
+  public set title(value: string) {
+    this._title = value;
+  }
+  
 }

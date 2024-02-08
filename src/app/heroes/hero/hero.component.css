@@ -1,0 +1,13 @@
+.data-list{
+    padding: 20px;
+    list-style: none;
+}
+
+h1{
+    font-size: 50px;
+}
+
+dd{
+    font-size: 2rem;
+    font-weight: bold;
+}
